@@ -6,7 +6,8 @@ st.write('Veja o histórico das cotações das empresas.')
 
 ticker = st.sidebar.text_input(
     'Escolha o ticker:',
-    value = 'TSLA', 'AAPL'
+    value = 'TSLA'
+    value = 'AAPL'
     )
 fig = plot_price(ticker)
 st.plotly_chart(fig)
