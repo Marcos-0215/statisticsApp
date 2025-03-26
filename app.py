@@ -12,7 +12,7 @@ st.write('Veja o histórico das cotações das empresas.')
 #    )
 
 
-tickers_disponiveis = ['TSLA', 'AAPL', 'MSFT', 'GOOGL', 'AMZN']
+tickers_disponiveis = ['TSLA', 'AAPL', 'MSFT', 'GOOGL', 'AMZN', 'COST', 'DIS', 'QQQ', 'VT']
 
 tickers = st.sidebar.multiselect(
     'Escolha os tickers:',
